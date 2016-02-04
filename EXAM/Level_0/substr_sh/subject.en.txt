@@ -1,0 +1,15 @@
+Assignment name  : substr_sh
+Expected files   : substr.sh
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Write a shell script that displays the content of the string contained in the
+environment variable FT_LINE, followed by a \n and without the five firsts characters
+
+Example:
+
+$> echo $FT_LINE
+Les patrons du staff ne sentent pas toujours tres bon.
+$> zsh substr.sh
+atrons du staff ne sentent pas toujours tres bon.
+$>

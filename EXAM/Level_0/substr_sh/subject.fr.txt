@@ -1,0 +1,14 @@
+Assignment name  : substr_sh
+Expected files   : substr.sh
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Écrire un script shell qui affiche la chaine de caractères présente dans la variable d'environnement FT_LINE, suivie d'un '\n', et sans les 5 premiers caractères.
+
+Exemple:
+
+$> echo $FT_LINE
+Les patrons du staff ne sentent pas toujours tres bon.
+$> zsh substr.sh
+atrons du staff ne sentent pas toujours tres bon.
+$>

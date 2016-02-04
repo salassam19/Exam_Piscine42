@@ -1,0 +1,15 @@
+Exercitiu  : strlen_sh
+Fisiere de iesire   : strlen.sh
+Functii autorizate : 
+--------------------------------------------------------------------------------
+
+Scrieti un script shell care afiseaza lungimea sirului de caractere prezent in 
+variabila de mediu (environment variable) FT_LINE urmata de '\n'.
+
+Exemplu:
+
+$> echo $FT_LINE
+Les stagiaires du staff ne sentent pas toujours tres bon.
+$> zsh strlen.sh
+57
+$>

@@ -1,0 +1,5 @@
+$> echo $FT_LINE
+Les patrons du staff ne sentent pas toujours tres bon.
+$> zsh substr.sh
+atrons du staff ne sentent pas toujours tres bon.
+$>
